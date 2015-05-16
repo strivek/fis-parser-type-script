@@ -5,9 +5,8 @@
 
 'use strict';
 
-var typescript = require('typescript');
+var tss = require('typescript-simple');
 
-module.exports = function(content, file, conf){
-    content = typescript.compile(content, conf);
-    return conf.sourceMap ? content.js : content;
-};
+module.exports = function(content, file, conf) {
+	return tss(content.toString());
+}

@@ -1,6 +1,7 @@
 {
     "name": "fis-parser-type-script",
-    "version": "0.0.1",
+
+    "version": "0.0.3",
     "description": "A parser plugin for fis to compile typescript.",
     "main": "index.js",
     "scripts": {
@@ -20,9 +21,12 @@
         "node": ">= 0.8.0"
     },
     "dependencies": {
-        "typescript": "1.5.0-beta"
+        "typescript-simple": "~1.0.3"
     },
-    "author": "strivek",
+    "author": {
+        "name": "strivek",
+        "email": "strivek@gmail.com"
+    },
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/strivek/fis-parser-type-script/issues"
