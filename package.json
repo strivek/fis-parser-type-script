@@ -1,7 +1,7 @@
 {
     "name": "fis-parser-type-script",
 
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A parser plugin for fis to compile typescript.",
     "main": "index.js",
     "scripts": {
